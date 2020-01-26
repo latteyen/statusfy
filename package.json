@@ -49,6 +49,10 @@
     "website:dev": "yarn workspace statusfy-website dev",
     "website:generate": "yarn workspace statusfy-website generate",
     "update-changelog": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
+    "dev": "statusfy dev",
+    "generate": "statusfy generate",
+    "build": "statusfy build",
+    "start": "statusfy start",
     "deploy": "gh-pages -d dist"
   },
   "devDependencies": {
